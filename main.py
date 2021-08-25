@@ -89,7 +89,7 @@ if __name__ == "__main__":
         P_posterior_1 = np.eye(2) - np.dot(K, H)
         P_posterior = np.dot(P_posterior_1, P_prior)
 
-        print(P_posterior)
+       
 
     # 可视化显示
     if True:
